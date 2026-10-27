@@ -21,7 +21,7 @@ export default function Home() {
               <Link className="button alt" href="/book"><BookOpen size={16} /> Read The Sovereign Brand</Link>
             </div>
             <div className="hero-proof">
-              <span><b>11+ yrs</b>Marketing across fintech, commerce, entertainment, consumer and B2B tech</span>
+              <span><b>11+ yrs</b>Marketing across fintech, commerce, entertainment, ecommerce and B2B tech</span>
               <span><b>+173%</b>Streamer DAU growth on a documented programme</span>
               <span><b>5+ launches</b>Products launched across payments, travel, entertainment and mobility</span>
             </div>
@@ -44,7 +44,7 @@ export default function Home() {
         <div className="container">
           <div className="section-head section-head--split">
             <div><p className="label">Proof of work</p><h2 className="display h-lg">The work matters more than the title.</h2></div>
-            <p>Selected work from Amazon and earlier marketing roles. The cases explain the problem, the decisions, the measurement and what changed.</p>
+            <p>Selected experience spans Amazon, connected consumer products and current cross-brand growth operations. Each example separates measured outcomes from ongoing work.</p>
           </div>
           <div className="proof-grid">
             <div className="proof-big">
@@ -60,6 +60,30 @@ export default function Home() {
             </div>
           </div>
           <div className="section-link"><Link href="/case-studies">See the proof of work <ArrowUpRight size={15} /></Link></div>
+        </div>
+      </section>
+
+      <section className="surface-pearl screen" id="growth-systems">
+        <div className="container">
+          <div className="section-head section-head--split">
+            <div><p className="label">Current work · Growth leadership</p><h2 className="display h-lg">Build the system behind growth.</h2></div>
+            <p>My recent work brings together paid acquisition, lifecycle, measurement, ecommerce, experimentation and cross-functional execution. The objective is to make growth decisions repeatable, not dependent on isolated channel reports.</p>
+          </div>
+          <div className="proof-grid">
+            <div className="proof-big">
+              <div className="num">Operating model · Multi-brand portfolio</div>
+              <h3>From scattered reports to a Growth OS.</h3>
+              <p>Developing shared campaign standards, decision cadences, creative briefs and performance dashboards that connect commercial goals with channel-level decisions. Work includes coordinating media, analytics, lifecycle and creative execution across multiple consumer brands.</p>
+              <Link href="/case-studies/growth-operating-system">How the growth operating system works <ArrowUpRight size={15} /></Link>
+            </div>
+            <div className="proof-list">
+              <div><strong>Acquisition economics</strong><span>Evaluate CPA, ROAS, registration quality and downstream outcomes by channel, audience, creative and product.</span></div>
+              <div><strong>Measurement and attribution</strong><span>Audit click-ID capture, registration events, conversion delivery and differences between platform and backend reporting.</span></div>
+              <div><strong>Ecommerce conversion</strong><span>Investigate SKU-level performance, cart friction, product-page journeys and the difference between pre-click and post-click deterioration.</span></div>
+              <div><strong>Automation and analytics</strong><span>Build executive dashboards, structured data workflows and reusable reporting systems to reduce manual analysis.</span></div>
+            </div>
+          </div>
+          <div className="section-link"><Link href="/case-studies/growth-operating-system">Read the operating model case <ArrowUpRight size={15} /></Link></div>
         </div>
       </section>
 
