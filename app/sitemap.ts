@@ -14,6 +14,7 @@ export default function sitemap():MetadataRoute.Sitemap{
   {url:`${base}/services`,lastModified:now,changeFrequency:'monthly',priority:.9},
   {url:`${base}/marketing-growth-diagnostic`,lastModified:now,changeFrequency:'weekly',priority:1},
   {url:`${base}/case-studies`,lastModified:now,changeFrequency:'monthly',priority:.95},
+  {url:`${base}/case-studies/growth-operating-system`,lastModified:new Date('2026-10-27'),changeFrequency:'monthly',priority:.85},
   {url:`${base}/book`,lastModified:now,changeFrequency:'monthly',priority:.9},
   {url:`${base}/memos`,lastModified:now,changeFrequency:'weekly',priority:.85},
   {url:`${base}/blog`,lastModified:now,changeFrequency:'weekly',priority:.85},
